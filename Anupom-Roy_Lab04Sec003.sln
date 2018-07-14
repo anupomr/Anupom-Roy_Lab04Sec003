@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anupom-Roy_Lab05_Ex2", "Anu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackInheritanceTest", "StackInheritanceTest\StackInheritanceTest.csproj", "{21DA5A39-963D-47F2-A852-B8FC461A8830}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anupom-Roy_Lab05_Ex3", "Anupom-Roy_Lab05_Ex3\Anupom-Roy_Lab05_Ex3.csproj", "{85ADA0B3-499F-45AB-81FD-2DC77A99BCBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTest", "QueueTest\QueueTest.csproj", "{FCD87947-5878-4A29-B7DD-8757FFEA5F95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{21DA5A39-963D-47F2-A852-B8FC461A8830}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21DA5A39-963D-47F2-A852-B8FC461A8830}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21DA5A39-963D-47F2-A852-B8FC461A8830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85ADA0B3-499F-45AB-81FD-2DC77A99BCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85ADA0B3-499F-45AB-81FD-2DC77A99BCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85ADA0B3-499F-45AB-81FD-2DC77A99BCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85ADA0B3-499F-45AB-81FD-2DC77A99BCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD87947-5878-4A29-B7DD-8757FFEA5F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD87947-5878-4A29-B7DD-8757FFEA5F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD87947-5878-4A29-B7DD-8757FFEA5F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD87947-5878-4A29-B7DD-8757FFEA5F95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
