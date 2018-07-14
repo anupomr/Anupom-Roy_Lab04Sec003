@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListLibrary", "LinkedListLibrary\LinkedListLibrary.csproj", "{5B126F88-5EA3-4D46-8084-A1152E1DB178}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anupom-Roy_Lab05_Ex1", "LinkedListLibrary\Anupom-Roy_Lab05_Ex1.csproj", "{5B126F88-5EA3-4D46-8084-A1152E1DB178}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTest", "ListTest\ListTest.csproj", "{FB4C0612-65DD-4B2A-A4FE-0A1B56A86A8C}"
 EndProject

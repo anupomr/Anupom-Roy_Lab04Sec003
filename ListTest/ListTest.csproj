@@ -49,9 +49,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LinkedListLibrary\LinkedListLibrary.csproj">
+    <ProjectReference Include="..\LinkedListLibrary\Anupom-Roy_Lab05_Ex1.csproj">
       <Project>{5b126f88-5ea3-4d46-8084-a1152e1db178}</Project>
-      <Name>LinkedListLibrary</Name>
+      <Name>Anupom-Roy_Lab05_Ex1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
