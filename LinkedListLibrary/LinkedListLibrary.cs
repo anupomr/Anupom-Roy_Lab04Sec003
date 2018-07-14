@@ -8,8 +8,8 @@ namespace LinkedListLibrary
    // class List declaration
    public class List
    {
-      private ListNode firstNode;
-      private ListNode lastNode;
+      public ListNode firstNode;
+      public ListNode lastNode;
       private string name; // string like "list" to display
 
       // construct empty List with specified name
@@ -53,14 +53,14 @@ namespace LinkedListLibrary
       }
 
       // remove first node from List
-      public object RemoveFromFront()
+      public Double RemoveFromFront()
       {
          if (IsEmpty())
          {
             throw new EmptyListException(name);
          }
 
-         object removeItem = firstNode.Data; // retrieve data
+            Double removeItem = firstNode.Data; // retrieve data
 
          // reset firstNode and lastNode references
          if (firstNode == lastNode)
