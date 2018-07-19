@@ -76,14 +76,14 @@ namespace LinkedListLibrary
       }
 
       // remove last node from List
-      public object RemoveFromBack()
+      public Double RemoveFromBack()
       {
          if (IsEmpty())
          {
             throw new EmptyListException(name);
          }
 
-         object removeItem = lastNode.Data; // retrieve data
+         Double removeItem = lastNode.Data; // retrieve data
 
          // reset firstNode and lastNode references
          if (firstNode == lastNode)

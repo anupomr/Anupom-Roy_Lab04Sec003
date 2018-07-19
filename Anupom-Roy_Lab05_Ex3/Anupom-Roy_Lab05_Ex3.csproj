@@ -40,14 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueInheritance.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LinkedListLibrary\Anupom-Roy_Lab05_Ex1.csproj">
-      <Project>{5B126F88-5EA3-4D46-8084-A1152E1DB178}</Project>
-      <Name>Anupom-Roy_Lab05_Ex1</Name>
+    <ProjectReference Include="..\Anupom-Roy_Lab05_Ex31\Anupom-Roy_Lab05_Ex31.csproj">
+      <Project>{09429e86-d02b-4ec8-b611-4edb7566f3c5}</Project>
+      <Name>Anupom-Roy_Lab05_Ex31</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

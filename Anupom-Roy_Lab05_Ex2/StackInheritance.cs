@@ -28,13 +28,8 @@ namespace Anupom_Roy_Lab05_Ex2
         public Double Peek()
         {
             if (IsEmpty())
-                return 0;
-
-            //ListNode toKeep = lastNode.Next;
-            ListNode current = firstNode;
-
-           
-            return current.Data;
+                return 0;           
+            return lastNode.Data;
         }
 
     }

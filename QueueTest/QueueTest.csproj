@@ -48,5 +48,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Anupom-Roy_Lab05_Ex31\Anupom-Roy_Lab05_Ex31.csproj">
+      <Project>{09429e86-d02b-4ec8-b611-4edb7566f3c5}</Project>
+      <Name>Anupom-Roy_Lab05_Ex31</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anupom-Roy_Lab05_Ex3\Anupom-Roy_Lab05_Ex3.csproj">
+      <Project>{85ADA0B3-499F-45AB-81FD-2DC77A99BCBD}</Project>
+      <Name>Anupom-Roy_Lab05_Ex3</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

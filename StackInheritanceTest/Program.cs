@@ -24,7 +24,7 @@ namespace StackInheritanceTest
             stack.Display();
             stack.Push(35.25);
             stack.Display();
-            Console.WriteLine("First one is "+stack.Peek());
+            Console.WriteLine("Top one is "+stack.Peek());
 
 
             // remove items from stack
@@ -32,7 +32,7 @@ namespace StackInheritanceTest
             {
                 while (true)
                 {
-                    object removedObject = stack.Pop();
+                    Double removedObject = stack.Pop();
                     Console.WriteLine($"{removedObject} popped");
                     stack.Display();
                 }
@@ -40,7 +40,8 @@ namespace StackInheritanceTest
             catch (EmptyListException emptyListException)
             {
                 // if exception occurs, write stack trace
-                Console.Error.WriteLine(emptyListException.StackTrace);
+                //Console.Error.WriteLine(emptyListException.StackTrace);
+                Console.Error.WriteLine(emptyListException.Message);
             }
         }
     }
